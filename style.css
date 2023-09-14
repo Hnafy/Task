@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+    padding: 0 20px;
+}
+.topleft{
+    display: flex;
+    align-items: center;
+}
+.topleft img{
+    width: 50%;
+    padding-left: 15px;
+    cursor: pointer;
+}
+.center{
+    display: flex;
+    align-items: center;
+}
+.center form{
+    display: flex;
+    width: 600px;
+    height: 50px;
+}
+.center input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #EEE;
+}
+.center button{
+    width: 50px;
+    border: 1px solid #EEE;
+    cursor: pointer;
+}
+.center .mic{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    background-color: #EEE;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.topright a{
+    padding-right: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.content{
+    height: calc(100vh - 60px);
+    display: flex;
+    background-color: #EEE;
+}
+aside{
+    height: 100%;
+    width: 300px;
+    background-color: white;
+    overflow-y: auto;
+}
+nav{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+    
+}
+.nav-link{
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: black;
+}
+.nav-link span{
+    margin: 25px;
+    font-weight: 400px;
+    font-size: 15px;
+    line-height: 20px;
+    color: black;
+}
+
